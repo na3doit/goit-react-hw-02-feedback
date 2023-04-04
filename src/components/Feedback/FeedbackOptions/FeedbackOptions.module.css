@@ -1,0 +1,25 @@
+.btn {
+  width: 100px;
+  height: 40px;
+  font-size: 18px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 1px rgb(108, 108, 108);
+  background-color: rgb(167, 246, 197);
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: rgba(23, 109, 207, 0.623);
+  color: #ffffff;
+}
+.btn:active {
+  background-color: rgb(167, 246, 197);
+  color: #000;
+  box-shadow: none;
+}
+
+.btn:not(:last-child) {
+  margin-right: 10px;
+}
